@@ -3,6 +3,7 @@
 # Installation
     - run "git clone https://github.com/Fermekoo/dandi-fermeko-techtask-201910.git"
     - run "composer install" to install dependencies
+    - run " php -S localhsot:3030 -t ./public "
 # Routes
     - "{base_url}/v1/recipe" to get all Recipe
     - "{base_url}/v1/ingredient" to get all Ingredients
