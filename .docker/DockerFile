@@ -1,0 +1,13 @@
+FROM php:7.2-apache
+
+
+CMD echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+COPY . /var/www/html/dandi-fermeko-techtask-201910
+COPY .docker/vhost.conf /etc/apache/sites-available/000-default.conf
+
+
+
+RUN docker-php-ext-install mbstring pdo pdo_mysql \
+&& chown -R www-data:www-data /var/www/html/dandi-fermeko-techtask-201910 \
+&& a2enmod rewrite

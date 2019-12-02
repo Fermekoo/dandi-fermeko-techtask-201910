@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":282:{a:2:{s:7:"defects";a:2:{s:22:"RecipeTest::testGetAll";i:3;s:26:"IngredientTest::testGetAll";i:4;}s:5:"times";a:4:{s:24:"ExampleTest::testExample";d:0.02;s:22:"RecipeTest::testGetAll";d:0.191;s:26:"IngredientTest::testGetAll";d:0.241;s:31:"RecipeTest::testAvailableRecipe";d:0.547;}}}

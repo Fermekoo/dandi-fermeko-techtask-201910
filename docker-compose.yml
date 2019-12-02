@@ -1,0 +1,11 @@
+version: '2.1'
+services:
+  dandi-fermeko-techtask-201910:
+    image: dandi-fermeko-techtask-201910
+    build: 
+      context: .
+      dockerfile: .docker/DockerFile
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html/dandi-fermeko-techtask-201910
